@@ -1,0 +1,16 @@
+{
+  "network": "BOT Chain Testnet (Bohr)",
+  "chainId": 968,
+  "contractName": "TrustStakeCore",
+  "contractAddress": "0xcb68b99e5b02b1e6a6aee361089e1adcdacefe00",
+  "deployerAddress": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+  "feeRecipient": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+  "protocolFeeBps": 100,
+  "deploymentTxHash": "0x0e8cf1456562d8f76b4fe3a299eba2378f973fdafa94b740829e92d49bfe0630",
+  "blockNumber": 28439734,
+  "gasUsed": 3678088,
+  "rpcUrl": "https://rpc.bohr.life",
+  "explorerUrl": "https://scan.bohr.life",
+  "contractExplorerUrl": "https://scan.bohr.life/address/0xcb68b99e5b02b1e6a6aee361089e1adcdacefe00",
+  "deployedAt": "2026-10-28T12:08:06.359Z"
+}

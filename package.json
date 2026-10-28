@@ -1,0 +1,23 @@
+{
+  "name": "truststake-protocol",
+  "version": "1.0.0",
+  "description": "Stake-backed reliability marketplace for service providers and AI agents on BOT Chain",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix \"TrustStake Frontend\" run dev",
+    "build": "npm --prefix \"TrustStake Frontend\" install && npm --prefix \"TrustStake Frontend\" run build",
+    "test:contracts": "node scripts/test-contracts.mjs",
+    "deploy:testnet": "node scripts/deploy-testnet.mjs",
+    "deploy:mainnet": "node scripts/deploy-mainnet.mjs",
+    "preflight:mainnet": "node scripts/preflight-mainnet.mjs",
+    "verify:proof": "node scripts/verify-proof.mjs",
+    "indexer": "node services/indexer.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "viem": "^2.23.0"
+  },
+  "devDependencies": {
+    "solc": "^0.8.28"
+  }
+}

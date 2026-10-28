@@ -1,0 +1,18 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+solc_version = "0.8.28"
+optimizer = true
+optimizer_runs = 200
+via_ir = false
+
+# Network configurations
+[rpc_endpoints]
+bohr_testnet = "https://rpc.bohr.life"
+bot_mainnet = "https://rpc.botchain.ai"
+
+[etherscan]
+bohr_testnet = { key = "none", url = "https://scan.bohr.life/api" }
+bot_mainnet = { key = "none", url = "https://scan.botchain.ai/api" }

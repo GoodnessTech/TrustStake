@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment and sensitive keys
+.env
+*.env.local
+*.env.*.local
+!*.env.example
+
+# Build outputs
+dist/
+build/
+out/
+*/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Cache & temporary files
+.cache/
+.temp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.suo
+
+# Foundry / Hardhat artifacts (if compiled locally)
+cache/
+artifacts/
+broadcast/

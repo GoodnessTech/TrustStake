@@ -1,0 +1,306 @@
+{
+  "network": "BOT Chain Testnet (Bohr)",
+  "chainId": 968,
+  "contractAddress": "0xcb68b99e5b02b1e6a6aee361089e1adcdacefe00",
+  "startBlock": 28439734,
+  "currentBlock": 28441599,
+  "indexedThroughBlock": 28441599,
+  "indexingLag": 0,
+  "health": "healthy",
+  "lastIndexedAt": "2026-10-28T12:31:41.287Z",
+  "protocolMetrics": {
+    "totalCollateralBot": "0.0350",
+    "totalLockedBot": "0.0000",
+    "totalSettlements": 2,
+    "activeCommitments": 0,
+    "completedCommitments": 1,
+    "registeredProvidersCount": 1
+  },
+  "providers": [
+    {
+      "address": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+      "name": "Axiom Compute",
+      "category": "Compute & inference",
+      "metadataURI": "ipfs://bafybeiaxiomcompute",
+      "metadataHash": "0xab690b4485096919df21f1011d46b118a4bcb88e12e242019cef489c4743808e",
+      "totalCollateral": "35000000000000000",
+      "totalCollateralBot": "0.0350",
+      "lockedCollateral": "0",
+      "lockedCollateralBot": "0.0000",
+      "availableCollateral": "35000000000000000",
+      "availableCollateralBot": "0.0350",
+      "stats": {
+        "accepted": "2",
+        "completed": "1",
+        "failed": "1",
+        "disputed": "1",
+        "appealed": "1"
+      },
+      "isActive": true
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+      "customer": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+      "terms": {
+        "reward": "0",
+        "rewardBot": "0.0000",
+        "requiredCollateral": "20000000000000000",
+        "requiredCollateralBot": "0.0200",
+        "maxPenalty": "15000000000000000",
+        "maxPenaltyBot": "0.0150",
+        "deadline": 1793794503,
+        "primaryArbitrator": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "appealArbitrator": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51"
+      },
+      "state": {
+        "status": "Settled",
+        "statusCode": 9,
+        "finalOutcome": "ProviderSuccess",
+        "settledAt": 1793189720
+      },
+      "evidenceCount": 1,
+      "evidenceList": [
+        {
+          "contentHash": "0x3849d0480fb94bc6866dbffeeb05cb41fd4a7ae7990116d265af6f07cdda5b08",
+          "evidenceURI": "ipfs://bafybeievidencepayload1",
+          "submitter": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+          "timestamp": 1793189717
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+      "customer": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+      "terms": {
+        "reward": "0",
+        "rewardBot": "0.0000",
+        "requiredCollateral": "20000000000000000",
+        "requiredCollateralBot": "0.0200",
+        "maxPenalty": "15000000000000000",
+        "maxPenaltyBot": "0.0150",
+        "deadline": 1793794503,
+        "primaryArbitrator": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "appealArbitrator": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51"
+      },
+      "state": {
+        "status": "Settled",
+        "statusCode": 9,
+        "finalOutcome": "ProviderFault",
+        "settledAt": 1793189769
+      },
+      "evidenceCount": 3,
+      "evidenceList": [
+        {
+          "contentHash": "0x4c38559a9481afd3258e9a78cb17a1e4636ec85d630944f3238cc52739ec0c55",
+          "evidenceURI": "ipfs://bafybeifailureproof",
+          "submitter": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+          "timestamp": 1793189734
+        },
+        {
+          "contentHash": "0xafbb745acf4642e7bfe5445f48d70a43be827dd1586c2fe7df7ca5a5c1f80d59",
+          "evidenceURI": "ipfs://bafybeichallengeproof",
+          "submitter": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+          "timestamp": 1793189754
+        },
+        {
+          "contentHash": "0xb0d6e7dda3bfcd604c7caa758270a8f4f5fe4f11d26f3d35f3ff1227ecfa7416",
+          "evidenceURI": "ipfs://bafybeiappealbrief",
+          "submitter": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+          "timestamp": 1793189764
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventName": "ProviderRegistered",
+      "blockNumber": 28440286,
+      "transactionHash": "0x28b17dc723fb6c5a7c8829d7f3a2c9393cb623a175296282748d09776573f8e0",
+      "args": {
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "name": "Axiom Compute",
+        "category": "Compute & inference",
+        "metadataHash": "0xab690b4485096919df21f1011d46b118a4bcb88e12e242019cef489c4743808e",
+        "metadataURI": "ipfs://bafybeiaxiomcompute",
+        "timestamp": "1793189698"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CollateralDeposited",
+      "blockNumber": 28440292,
+      "transactionHash": "0x45817aafb67c859d139796c9477392241c0b676e42394af645593fd6c48c1ef7",
+      "args": {
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "amount": "50000000000000000",
+        "newTotal": "50000000000000000"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CommitmentCreated",
+      "blockNumber": 28440298,
+      "transactionHash": "0xd9a05c7eea95f629a745f7fcdaa1c86484eae37a5079ce607bb7b7c482163c2c",
+      "args": {
+        "commitmentId": "1",
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "customer": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "reward": "10000000000000000",
+        "requiredCollateral": "20000000000000000",
+        "maxPenalty": "15000000000000000",
+        "deadline": "1793794503"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CommitmentAccepted",
+      "blockNumber": 28440306,
+      "transactionHash": "0x98d9be9e7f062060af36abcf551db9760c56fce2bb4fedc671499ece1d5389e9",
+      "args": {
+        "commitmentId": "1",
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "lockedCollateral": "20000000000000000"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "EvidenceSubmitted",
+      "blockNumber": 28440311,
+      "transactionHash": "0x0ba89b37fa03364c9c247efbd06123c545b64503127246cd3f71570dc150a433",
+      "args": {
+        "commitmentId": "1",
+        "submitter": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "contentHash": "0x3849d0480fb94bc6866dbffeeb05cb41fd4a7ae7990116d265af6f07cdda5b08",
+        "evidenceURI": "ipfs://bafybeievidencepayload1",
+        "evidenceIndex": "0"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CommitmentCompleted",
+      "blockNumber": 28440316,
+      "transactionHash": "0xd0c0bb8727133297706825506aadb515cb55fca9c452ea7b533ef27c4cf6234d",
+      "args": {
+        "commitmentId": "1",
+        "customer": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CommitmentSettled",
+      "blockNumber": 28440316,
+      "transactionHash": "0xd0c0bb8727133297706825506aadb515cb55fca9c452ea7b533ef27c4cf6234d",
+      "args": {
+        "commitmentId": "1",
+        "finalOutcome": 1,
+        "providerPayout": "9900000000000000",
+        "customerPayout": "0",
+        "penaltyDeducted": "0",
+        "feePaid": "100000000000000"
+      },
+      "logIndex": 1
+    },
+    {
+      "eventName": "CommitmentCreated",
+      "blockNumber": 28440322,
+      "transactionHash": "0x1cf6da4009e4beab47cb686afd0c39130cfe9da1127a3e34e2677a009357e183",
+      "args": {
+        "commitmentId": "2",
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "customer": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "reward": "10000000000000000",
+        "requiredCollateral": "20000000000000000",
+        "maxPenalty": "15000000000000000",
+        "deadline": "1793794503"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CommitmentAccepted",
+      "blockNumber": 28440329,
+      "transactionHash": "0xee02aef8419c7def89c43869f5728175d882dc552f38746d5b19fc0eea03c284",
+      "args": {
+        "commitmentId": "2",
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "lockedCollateral": "20000000000000000"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "FailureReported",
+      "blockNumber": 28440334,
+      "transactionHash": "0x14d9a657b884ad3ab14fe3c8132ccb98d00a77d279a23b534b05a478d5581006",
+      "args": {
+        "commitmentId": "2",
+        "customer": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "evidenceHash": "0x4c38559a9481afd3258e9a78cb17a1e4636ec85d630944f3238cc52739ec0c55"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "FailureChallenged",
+      "blockNumber": 28440361,
+      "transactionHash": "0xa452d6a597d4bdc1f82922ee65e6e1f9882c273a68291c3a2f39a7b176aa3b1f",
+      "args": {
+        "commitmentId": "2",
+        "provider": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "reasonHash": "0xafbb745acf4642e7bfe5445f48d70a43be827dd1586c2fe7df7ca5a5c1f80d59"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "DisputeArbitrated",
+      "blockNumber": 28440365,
+      "transactionHash": "0xfcebea587e3d1d1949b3bc258592349afc79983805449683fe1f8d6e5a21207f",
+      "args": {
+        "commitmentId": "2",
+        "arbitrator": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "outcome": 3,
+        "rulingHash": "0xbf90456324fb2203cd557f5d7bfa67a129bc1a22a62945755247c698e3c6b19d"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "DisputeAppealed",
+      "blockNumber": 28440374,
+      "transactionHash": "0xd301e95bf86f2661e8d07ea911e43f5202d83d3b83188873b21ed407c2ad6127",
+      "args": {
+        "commitmentId": "2",
+        "appellant": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "appealHash": "0xb0d6e7dda3bfcd604c7caa758270a8f4f5fe4f11d26f3d35f3ff1227ecfa7416"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "AppealArbitrated",
+      "blockNumber": 28440381,
+      "transactionHash": "0xc515c15454904b241be9728ae8f7d6f7831f34eb5db25b2d09a32a1374357d09",
+      "args": {
+        "commitmentId": "2",
+        "arbitrator": "0x34090545bd562b0be1cdc855f7ca9bee4566ce51",
+        "outcome": 3,
+        "rulingHash": "0x96d3de09d8e7157a728ffeed4342d4a3163c2edade236d854f54bedfe042b6c6"
+      },
+      "logIndex": 0
+    },
+    {
+      "eventName": "CommitmentSettled",
+      "blockNumber": 28440381,
+      "transactionHash": "0xc515c15454904b241be9728ae8f7d6f7831f34eb5db25b2d09a32a1374357d09",
+      "args": {
+        "commitmentId": "2",
+        "finalOutcome": 3,
+        "providerPayout": "0",
+        "customerPayout": "25000000000000000",
+        "penaltyDeducted": "15000000000000000",
+        "feePaid": "0"
+      },
+      "logIndex": 1
+    }
+  ]
+}

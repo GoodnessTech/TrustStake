@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm --prefix \"TrustStake Frontend\" run build",
+  "outputDirectory": "TrustStake Frontend/dist",
+  "installCommand": "npm --prefix \"TrustStake Frontend\" install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/health",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/TrustStake Frontend/dist/$1"
+    }
+  ]
+}
